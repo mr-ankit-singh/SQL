@@ -102,12 +102,12 @@ SQL COMPARISION / RELATIONAL OPERATOR 🙋‍
 
 SQL LOGICAL OPERATORS 🙋‍
    - Filter the data using multiple conditions.
-   Operator	     Description
+   Operator	 Description
    ----------    --------------		
-     AND		 TRUE if all the conditions separated by AND is TRUE
-     OR		     TRUE if any of the conditions separated by OR is TRUE
-     NOT		 Displays a record if the condition(s) is NOT TRUE					
-     SOME	     TRUE if any of the subquery values meet the condition
+     AND	 TRUE if all the conditions separated by AND is TRUE
+     OR		 TRUE if any of the conditions separated by OR is TRUE
+     NOT         Displays a record if the condition(s) is NOT TRUE					
+     SOME	 TRUE if any of the subquery values meet the condition
 
 *-----------------------------------------------------------------------------------------------*
 BETWEEN OPERATOR 🙋‍
@@ -269,41 +269,41 @@ MYSQL BUILT-IN FUNCTIONS 🙋‍
    - Date and Time Functions
 
 STRING FUNCTIONS 🙋‍
-   Function	            Description
+   Function	        Description
    ----------           -------------
-   UPPER	    	    Converts a string to upper-case
-		                Syntax :- SELECT UPPER(column_name) FROM table_name; 
+   UPPER	    	Converts a string to upper-case
+		        Syntax :- SELECT UPPER(column_name) FROM table_name; 
 
-   LOWER		        Converts a string to lower-case
-		                Syntax :- SELECT LOWER(column_name) FROM table_name; 
+   LOWER		Converts a string to lower-case
+		        Syntax :- SELECT LOWER(column_name) FROM table_name; 
 
-   LENGTH	            Returns the length of a string (in bytes)
+   LENGTH	        Returns the length of a string (in bytes)
    CHAR_LENGTH	        Returns the length of a string (in characters)
    CHARACTER_LENGTH     Returns the length of a string (in characters)
-		                Syntax :- SELECT LENGTH(column_name) FROM table_name;
+		        Syntax :- SELECT LENGTH(column_name) FROM table_name;
 
-   INSTR		        Returns the position of the first occurrence of a string in another string
-		                Syntax :- INSTR(string1, string2) 
+   INSTR		Returns the position of the first occurrence of a string in another string
+		        Syntax :- INSTR(string1, string2) 
 
-   SUBSTR	            Extracts a substring from a string (starting at any position)
+   SUBSTR	        Extracts a substring from a string (starting at any position)
    SUBSTRING	        Extracts a substring from a string (starting at any position)
-		                Syntax:- SUBSTR(string, start, length) 
-		          	    SUBSTRING(string, start, length) 
+		        Syntax:- SUBSTR(string, start, length) 
+		          	 SUBSTRING(string, start, length) 
 
-   CONCAT	            Adds two or more expressions together
+   CONCAT	        Adds two or more expressions together
    CONCAT_WS	        Adds two or more expressions together with seperators
-  		                Syntax :- CONCAT(expression1, expression2, expression3,...)
-  		                CONCAT_WS(seperator , expression1, expression2, expression3,...)
+  		        Syntax :- CONCAT(expression1, expression2, expression3,...)
+  		        CONCAT_WS(seperator , expression1, expression2, expression3,...)
 
    TRIM      	        Removes leading and trailing spaces from a string
-		                Syntax :- TRIM(string)
+	                Syntax :- TRIM(string)
 
    REPLACE              Replace all occurance of substring within a string 
                         This function is case sensitive 
                         Syntax :- REPLACE(string , initialString , finalString)
 
-   REVERSE             Reverse the string and return the result
-                       Syntax : REVERSE(string)
+   REVERSE              Reverse the string and return the result
+                        Syntax : REVERSE(string)
 
 NUMERIC FUNCTIONS 🙋‍
    Function	    Description
@@ -1077,4 +1077,4 @@ Triggers in SQL 🙋‍
       DDL - Data Definition Language   ( CREATE|ALTER|DROP)
       LogOn - It is executed in order of occurance of logOn events.
 
-    - Syntax :
+
